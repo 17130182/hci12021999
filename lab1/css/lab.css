@@ -1,0 +1,183 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    font-family: Tahoma;
+    font-size: 20px;
+}
+.container{
+    width: 600px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #CCCCCC;
+    padding: 20px;
+}
+ .name,.phone, .birthday,.mail,.address,.gender,.id{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+/*.phone, .birthday,.address{*/
+/*    justify-content: start;*/
+/*}*/
+
+.title{
+    width: 150px;
+}
+/*.ipphone ,.ipbirthday,.ipaddress{*/
+/*    margin-left: 83px;*/
+/*}*/
+.btn{
+    background-color: #57b846;
+
+    border: 1px solid #57b846;
+    border-radius: 5px;
+    color: #FFFFFF;
+    padding: 5px 15px 5px 15px  ;
+}
+.slyear{
+    margin-left: 83px;
+    height: 26px;
+    margin-top: 18px;
+}
+.rq{
+    font-size: 15px;
+    margin-left: 80px;
+}
+.br{
+    background-color: #EDEDED;
+    width: 100%;
+    height: 3px;
+}
+
+.titles{
+    width: 250px;
+    padding:10px 20px 10px 20px;
+}
+.containers{
+    width: 1000px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #CCCCCC;
+    padding: 20px;
+}
+.tr{
+    margin: 0px 10px 0px 10px;
+}
+/*/////////////////////////////*/
+.senariocontainer{
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    font-size: 15px;
+    border: 1px solid #EDEDED;
+}
+.senariocontent{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+.price{
+    width: 100%;
+    height: 80px;
+    background: #c3c3c3;
+    border-radius: 5px;
+}
+.price p{
+   text-align: center;
+    align-items: center;
+    padding-top: 25px;
+}
+.imgphone{
+    /*background-image: url("../../img/201909280944242748_A9.png;trim.png");*/
+    background-repeat: no-repeat;
+    border: 2px solid #EEEEEE;
+    margin-top: 5px;
+}
+.btndathang{
+    width: 100%;
+    height: 80px;
+    background: red;
+    border: 0px solid;
+    border-radius: 5px;
+}
+.pickcolor{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.blue,.black{
+    border-radius: 10px;
+}
+.black{
+    width: 50px;
+    height: 20px;
+    background: black;
+}
+.blue{
+    width: 50px;
+    height: 20px;
+    background: black;
+}
+.tab-prop{
+    margin-top: 10px;
+}
+.sale{
+    display: flex;
+    flex-direction: column;
+    flex-flow: column;
+    padding-left: 15px;
+    margin-top: 10px;
+    border: 1px solid red;
+}
+.btnorder,.detailprice{
+    padding: 10px;
+}
+.detail{
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #EEEEEE;
+}
+.show{
+    margin-top: 10px;
+}
+.text{
+    margin-left: 50px;
+}
+.text,.data{
+    width: 50px;
+    margin-top: 10px;
+    border-bottom: 1px solid #3F3F3F;
+}
+.line{
+    width: 100%;
+    height: 3px;
+    background-color: #EEEEEE;
+}
+.phonename{
+    margin: 8px;
+}
+.promotion_header {
+    background: #e11b1e;
+    border-radius: 13px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    position: relative;
+    width: 103px;
+    top: -13px;
+    left: 10px;
+    vertical-align: middle;
+    line-height: 26px;
+    clear: both;
+    padding: 0 15px;
+    text-transform: uppercase;
+}

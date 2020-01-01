@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Colorlib Templates">
+    <meta name="author" content="Colorlib">
+    <meta name="keywords" content="Colorlib Templates">
+
+    <!-- Title Page-->
+    <title></title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+            integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/lab.css">
+    <link rel="stylesheet" href="css/all.css">
+
+    <!-- Icons font CSS-->
+    <link href="vendor/mdi-font/css/material-design-iconic-font.min.css" rel="stylesheet" media="all">
+    <link href="vendor/font-awesome-4.7/css/font-awesome.min.css" rel="stylesheet" media="all">
+    <!-- Font special for pages-->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
+
+    <!-- Vendor CSS-->
+    <link href="vendor/select2/select2.min.css" rel="stylesheet" media="all">
+    <link href="vendor/datepicker/daterangepicker.css" rel="stylesheet" media="all">
+
+     <script src="https://kit.fontawesome.com/b60b648720.js" crossorigin="anonymous"></script>
+    <!-- Main CSS-->
+    <link href="css/main.css" rel="stylesheet" media="all">
+</head>
+
+<body>
+    <div class="page-wrapper bg-blue p-t-100 p-b-100 font-robo">
+        <div class="wrapper wrapper--w680">
+            <div class="card card-1">
+                <div class="card-heading"></div>
+                <div class="card-body">
+                    <h2 class="title">Search</h2>
+                    <form >
+                        
+                        <div class="input-group">
+                            <input class="input--style-1" type="text" placeholder="ID" name="id">
+                        </div>
+                        <div class="p-t-20">
+                            <button class="btn btn--radius btn--green"type="search">Search</button>
+                            
+                        </div>
+                    </form>
+                </div>
+ <table class="table">
+        <thead>
+        <tr>
+            <th scope="col">STT</th>
+            <th scope="col">ID</th>
+            <th scope="col">Name</th>
+            <th scope="col">Gender</th>
+            <th scope="col">Class</th>
+            <th scope="col"> Address</th>          
+            <th  scope="col">Action</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <th scope="row">1</th>
+            <td>17130182</td>
+            <td>Tran Minh Quang</td>
+            <td>Male</td>
+            <td>DH17DTA</td>
+            <td title="Ho Chi Minh city">HCM</td>
+            <td><div>
+                <button class="btn" onclick="clickedit()"><i class="fas fa-pen-square"></i></button>
+                <button class="btn" onclick="clickdel()"><i class="fas fa-trash-alt"></i></button>
+            </div></td>
+        </tr>
+        <tr>
+            <th scope="row">2</th>
+            <td>17130034</td>
+            <td>Mac Hoang Duong</td>
+            <td>Male</td>
+            <td>DH17DTC</td>
+            <td title="Ho Chi Minh city">HCM</td>
+            <td><div>
+                <button class="btn" onclick="clickedit()"><i class="fas fa-pen-square"></i></button>
+                <button class="btn" onclick="clickdel()"><i class="fas fa-trash-alt"></i></button>
+            </div></td>
+        </tr>
+        <tr>
+            <th scope="row">3</th>
+            <td>17130185</td>
+            <td>Ngo Minh Quang</td>
+            <td>Male</td>
+            <td>DH17DTC</td>
+            <td title="Ho Chi Minh" city>HCM</td>
+            <td><div>
+                <button class="btn" onclick="clickedit()"><i class="fas fa-pen-square"></i></button>
+                <button class="btn" onclick="clickdel()"><i class="fas fa-trash-alt"></i></button>
+                <div class="btn-group">
+ 
+</div>
+            </div></td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+<script>
+    function clickdel(){
+        alert("Deleted!")
+    }
+    function clickedit(){
+        alert("Edit!")
+    }
+
+</script>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Jquery JS-->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <!-- Vendor JS-->
+    <script src="vendor/select2/select2.min.js"></script>
+    <script src="vendor/datepicker/moment.min.js"></script>
+    <script src="vendor/datepicker/daterangepicker.js"></script>
+
+    <!-- Main JS-->
+    <script src="js/global.js"></script>
+
+</body>
+</html>
+<!-- end document-->
