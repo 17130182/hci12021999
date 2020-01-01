@@ -1,0 +1,122 @@
+body{
+	font-family:Tahoma;
+	font-size:13px;
+	width: 1000px;
+	margin: 0px auto;
+
+}
+#menu_top{
+	background: orange;
+	height: 80px ;
+}
+#menu_top #logo{
+	
+	font-family: "Comic Sans MS";
+    width:300;
+    height:80px;
+    float: left;
+    color: black;
+    margin-bottom: 30px;
+    margin-left:0px;
+
+
+
+}
+#menu_top #menu{
+	color:black;
+	width:700;
+	float: left;
+	margin-left: 40px;
+}
+#banner{ 
+
+	margin-top: 40px;
+	margin-bottom: 60px; 
+    height: auto ;
+    width: 1000px;
+}
+#main #left{
+width:800px;
+float:left;
+ min-height: 400px; 	
+}
+
+#main #right{
+     width: 200px;
+      background: blue;
+      float:left;
+      min-height: 400px; 	
+}
+#footer{
+	
+	width: 1000px;
+	text-align: center;
+	height: 60px;
+
+	clear: left;
+    line-height: 60px;
+}
+#menu_top #menu ul{
+	margin-left: 50px;
+	margin-top:  40px;
+	padding:  0px;
+	float: left;
+
+}
+#menu_top #menu ul li{
+	list-style: none;
+   float: left;
+   font-size: 16px;
+
+}
+#menu_top #menu ul li a{
+	text-decoration: none;
+	display: block;
+	height: 40px;
+	line-height: 40px ;
+	color: #FFF;
+	padding: 0px 20px 0px 20px;
+	border-right: 1px solid #ccc;
+
+}
+#menu_top #menu ul li a.active{
+	background: lightGray;
+
+}
+#menu_top #menu a:hover{
+	background: lightGray;
+}
+#banner img{
+	height: auto;
+	width: 1000px; 
+}
+#main #left ul{
+	margin: 0px;
+	padding:0px;
+}
+#main #left ul li{
+	list-style: none;
+	clear: left;
+	border-bottom: 2px solid #FFF;
+	float: left;
+	margin-bottom: 20px;
+
+
+}
+#main #left ul li img{
+float: left;
+margin-top: : 20px;
+margin-right: 10px;
+margin-bottom: 20px;
+width: 100px;
+height: 110px;
+	}
+#main #left ul li h2{
+	font-size:16px;
+
+}
+#main {
+	margin-top: 10px;
+
+
+}	
