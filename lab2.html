@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Title -->
+    <title>Lab 2</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="./img/core-img/favicon.png">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <!-- Preloader -->
+    <div id="preloader">
+        <div class="loader"></div>
+    </div>
+    <!-- /Preloader -->
+
+    <!-- Top Search Form Area -->
+    <div class="top-search-area">
+        <div class="modal fade" id="searchModal" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <!-- Close -->
+                        <button type="button" class="btn close-btn" data-dismiss="modal"><i class="ti-close"></i></button>
+                        <!-- Form -->
+                        <form action="index.html" method="post">
+                            <input type="search" name="top-search-bar" class="form-control" placeholder="Search and hit enter...">
+                            <button type="submit">Search</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Header Area Start -->
+    <header class="header-area">
+        <!-- Main Header Start -->
+        <div class="main-header-area">
+            <div class="classy-nav-container breakpoint-off">
+                <div class="container">
+                    <!-- Classy Menu -->
+                    <nav class="classy-navbar justify-content-between" id="alimeNav">
+
+                        <!-- Logo -->
+                        <a class="nav-brand" href="./index.html"><img src="./img/core-img/logo.png" alt=""></a>
+
+                        <!-- Navbar Toggler -->
+                        <div class="classy-navbar-toggler">
+                            <span class="navbarToggler"><span></span><span></span><span></span></span>
+                        </div>
+
+                        <!-- Menu -->
+                        <div class="classy-menu">
+                            <!-- Menu Close Button -->
+                            <div class="classycloseIcon">
+                                <div class="cross-wrap"><span class="top"></span><span class="bottom"></span></div>
+                            </div>
+                            <!-- Nav Start -->
+                            <div class="classynav">
+                                <ul id="nav">
+                                    <li><a href="./index.html">Home</a></li>
+                                    <li><a href="./lab1.html">Lab 1</a></li>
+                                    <li class="active"><a href="./lab2.html">Lab 2</a></li>
+                                    <li><a href="./lab3.html">Lab 3</a></li>
+                                    <li><a href="./lab4.html">Lab 4</a></li>
+                                    <li><a href="./result.html">Result</a></li>
+                                    <li><a href="./about.html">About</a></li>
+                                    <li><a href="./contact.html">Contact</a></li>
+                                </ul>
+
+                                <!-- Search Icon -->
+                                <div class="search-icon" data-toggle="modal" data-target="#searchModal"><i class="ti-search"></i></div>
+                            </div>
+                            <!-- Nav End -->
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Header Area End -->
+
+    <!-- Breadcrumb Area Start -->
+    <section class="breadcrumb-area bg-img bg-overlay jarallax" style="background-image: url(img/bg-img/1.jpg);">
+        <div class="container h-100">
+            <div class="row h-100 align-items-center">
+                <div class="col-12">
+                    <div class="breadcrumb-content text-center">
+
+                        <nav aria-label="breadcrumb">
+                            <ol class="breadcrumb justify-content-center">
+                                <li class="breadcrumb-item"><a href="index.html"><i class="icon_house_alt"></i> Home</a></li>
+                                <li class="breadcrumb-item active" aria-current="page">Lab 2</li>
+                            </ol>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Breadcrumb Area End -->
+
+    <!-- Blog Area Start -->
+    <div class="alime-blog-area section-padding-80-0 mb-70">
+        <div class="container">
+
+            <div id="colorlib-main">
+                <div class="list_wrap">
+                    <!-- Tab links -->
+                    <div class="group-tabs">
+                        <!-- Nav tabs -->
+                        <ul class="nav nav-tabs" role="tablist">
+                            <li class="nav-item active">
+                                <a class="nav-link active" data-toggle="tab" href="#home1" aria-expanded="true">Requirement</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-toggle="tab" href="#home2">User Scenario</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" data-toggle="tab" href="#home3">Design</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-toggle="tab" href="#home4">Implement</a>
+                            </li>
+
+                        </ul>
+
+                        <!-- Tab panes -->
+                        <div class="tab-content">
+                            <div id="home1" class="container tab-pane active">
+                                <div style="font-size:20px;font-family:Tahoma;">Yêu cầu:</div>
+                                <br/>
+                                <p>(1) Tạo ra một user scenario
+                                    <br/> (2) Chọn 1 bước trong user scenario để thiết kế 1 form giao diện Web trên công cụ thiết kế đã chọn. Sau đó tạo ra file html tương ứng cho thiết kế này.
+                                    <br/> Upload lên Azure / Github: trong file html có chèn hình ảnh của user scenario ở (1) và đường dẫn của file thiết kế ở (2).</p>
+                            </div>
+                            <div id="home2" class="container tab-pane text-center">
+                                <img src="images/lab2_user.png" width="800px" height="400px" />
+                            </div>
+
+                            <div id="home3" class="container tab-pane">
+                                <div class="row">
+
+                                    <div class="col-sm-6"style="text-align: left">
+                                        <p style="font-size: 20px;padding: 20px 0px">Design on paper:</p>
+                                        <img src="images/lab2_tkpaper.jpg" width="100%">
+                                        <br/>
+                                        <a href="images/lab2_tkpaper.jpg">
+                                            <button type="button" class="btn alime-btn btn-2 mt-15" style="margin: 3% 0%;">Download</button>
+                                        </a>
+
+                                    </div>
+
+                                    <div class="col-sm-6"style="text-align: left">
+
+                                        <p style="font-size: 20px;margin: 20px 0px">Design on figma:</p>
+
+                                        <img src="images/tklab2.png" width="100%">
+                                        <br/>
+                                        <br/>
+                                        <a href="17130182_design/lab2/lab2.fig">
+                                            <button type="button" class="btn alime-btn btn-2 mt-15" style="margin: 3% 0%;">Download</button>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div style="text-align: right">
+                                    <div id="col1">
+                                        <br/>
+                                        <hr/>
+                                        <div id="col2">
+                                            Click here to download all data:
+                                            <a href="17130182_design/lab2.rar">
+                                                <button type="button" class="btn alime-btn btn-2 mt-15" style="font-size: 155%;padding: 1% 2%;margin-left: 1%;">Download All</button>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div id="home4" class="container tab-pane">
+
+                                <div style="text-align: center">
+                                    <div id="col1">
+                                        <p style="color: #000000;font-size: 20px;padding: 20px 0px"></p>
+                                        <iframe src="lab2/product_detail.html" width="1000" height="800"></iframe>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    </div>
+    </div>
+
+    </div>
+
+    </div>
+
+    </div>
+    </div>
+    </div>
+
+    </div>
+    </div>
+    <!-- Blog Area End -->
+
+    <!-- **** All JS Files ***** -->
+    <!-- jQuery 2.2.4 -->
+    <script src="js/jquery.min.js"></script>
+    <!-- Popper -->
+    <script src="js/popper.min.js"></script>
+    <!-- Bootstrap -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- All Plugins -->
+    <script src="js/alime.bundle.js"></script>
+    <!-- Active -->
+    <script src="js/default-assets/active.js"></script>
+
+</body>
+
+</html>
