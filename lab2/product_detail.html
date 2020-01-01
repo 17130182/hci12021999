@@ -3,7 +3,7 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
-		<title></title>
+		<title>Detail Product</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta name="description" content="">
 		<!--[if ie]><meta content='IE=8' http-equiv='X-UA-Compatible'/><![endif]-->
@@ -45,9 +45,9 @@
 					<div class="account pull-right">
 						<ul class="user-menu">				
 							<li><a href="#">Tài khoản </a></li>
-							<li><a href="cart.html">Giỏ hàng</a></li>
-							<li><a href="checkout.html">Thanh toán</a></li>					
-							<li><a href="register.html">Đăng nhập</a></li>		
+							<li><a href="#">Giỏ hàng</a></li>
+							<li><a href="#">Thanh toán</a></li>					
+							<li><a href="#">Đăng nhập</a></li>		
 						</ul>
 					</div>
 				</div>
@@ -59,24 +59,24 @@
 					<!--<a href="index.html" class="logo pull-left"><img src="themes/images/logo.png" class="site_logo" alt=""></a>-->
 					<nav id="menu" class="pull-right">
 						<ul>
-							<li><a href="./products.html">Thời trang nữ</a>					
+							<li><a href="#">Thời trang nữ</a>					
 								<ul>
-									<li><a href="./products.html">Lacinia nibh</a></li>									
-									<li><a href="./products.html">Eget molestie</a></li>
-									<li><a href="./products.html">Varius purus</a></li>									
+									<li><a href="#">Lacinia nibh</a></li>									
+									<li><a href="#">Eget molestie</a></li>
+									<li><a href="#">Varius purus</a></li>									
 								</ul>
 							</li>															
-							<li><a href="./products.html">Thời trang nam</a></li>			
-							<li><a href="./products.html">Thể thao</a>
+							<li><a href="#">Thời trang nam</a></li>			
+							<li><a href="#">Thể thao</a>
 								<ul>									
-									<li><a href="./products.html">Quà tặng và công nghệ</a></li>
-									<li><a href="./products.html">Cà vạt và mũ</a></li>
-									<li><a href="./products.html">Đồ mùa đông</a></li>
+									<li><a href="#">Quà tặng và công nghệ</a></li>
+									<li><a href="#">Cà vạt và mũ</a></li>
+									<li><a href="#">Đồ mùa đông</a></li>
 								</ul>
 							</li>							
-							<li><a href="./products.html">Túi xách</a></li>
-							<li><a href="./products.html">Sản phẩm mới</a></li>
-							<li><a href="./products.html">Bán chạy nhất</a></li>
+							<li><a href="#">Túi xách</a></li>
+							<li><a href="#">Sản phẩm mới</a></li>
+							<li><a href="#">Bán chạy nhất</a></li>
 						</ul>
 					</nav>
 				</div>
@@ -158,7 +158,8 @@
 									
 									<label><strong>Số lượng:<strong></label>
 									<input type="text" class="span1" placeholder="1">
-									<button class="btn btn-danger" type="submit">Thêm vào giỏ hàng</button>
+									<button class="btn btn-danger" type="submit" onclick="clickadd()">Thêm vào giỏ hàng</button>
+									<!-- <button class="btn btn-danger" type="submit">Thêm vào giỏ hàng</button> -->
 								</form>
 							</div>							
 						</div>
@@ -196,6 +197,18 @@
 				<span></span>
 			</section>
 		</div>
+		<script>
+    function clickdel(){
+        alert("Deleted!")
+    }
+    function clickedit(){
+        alert("Edit!")
+    }
+    function clickadd(){
+        alert("Add!")
+    }
+
+</script>
 		<script src="themes/js/common.js"></script>
 		<script>
 			$(function () {
