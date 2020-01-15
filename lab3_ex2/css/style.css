@@ -1,0 +1,120 @@
+body{
+	font-family:Tahoma;
+	font-size:13px;
+	width: 1000px;
+	margin: 0px auto;
+
+}
+#menu_top{
+	background: #0393B5;
+	height: 80px ;
+}
+#menu_top #logo{
+	background: #0393B5;
+	font-family: "Comic Sans MS";
+    width:300;
+    height:80px;
+    float: left;
+    color: black;
+    margin-bottom: 30px;
+    margin-left:0px;
+
+
+
+}
+#menu_top #menu{
+	color:black;
+	width:700;
+	float: left;
+	margin-left: 400px ;
+	
+}
+#banner{ 
+
+	margin-top: 10px;
+	margin-bottom: 10px; 
+    height: auto ;
+    width: 1000px;
+}
+#main #left{
+width:350px;
+float:left;
+ min-height: 400px; 	
+}
+#main #center{
+width:350px;
+float:left;
+ min-height: 400px; 	
+}
+
+#main #right{
+
+      width: 300px;
+     
+      float:left;
+      min-height: 400px; 	
+}
+
+#menu_top #menu ul{
+	margin-left: 50px;
+	margin-top:  40px;
+	padding:  0px;
+	float: left;
+
+}
+#menu_top #menu ul li{
+	list-style: none;
+   float: left;
+   font-size: 16px;
+
+}
+#menu_top #menu ul li a{
+	text-decoration: none;
+	margin-right: 0px;
+	display: block;
+	height: 40px;
+	line-height: 40px ;
+	color: black;
+	padding: 0px 20px 0px 20px;
+	border-right: 1px solid #ccc;
+
+}
+#menu_top #menu ul li a.active{
+	background: lightGray;
+
+}
+#menu_top #menu a:hover{
+	background: lightGray;
+}
+#banner img{
+	height: auto;
+	width: 1000px; 
+}
+.myButton {
+	margin-left: 20px;
+	margin-top: 0px;
+	box-shadow:inset 0px 4px 0px -4px #f29c93;
+	background:linear-gradient(to bottom, #fe1a00 5%, #ce0100 100%);
+	background-color:##0393B5;
+	border-radius:20px;
+	border:5px solid #d83526;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:15px 57px;
+	text-decoration:none;
+	text-shadow:0px 0px 0px #b23e35;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #ce0100 5%, #fe1a00 100%);
+	background-color:#0393B5;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+        
